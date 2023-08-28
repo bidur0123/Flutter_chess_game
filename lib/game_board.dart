@@ -530,7 +530,7 @@ void resetGame(){
       appBar: AppBar(
       // backgroundColor: Color.fromARGB(255, 62, 36, 36) ,
       title: Center(
-        child:  Text('♛ Chess ♛',
+        child:  Text('♛ Chess King ♛',
         style: GoogleFonts.robotoMono( 
           fontSize: 30,
           color: Colors.white,
@@ -550,9 +550,10 @@ void resetGame(){
       body: Column(         
             children: [
               const SizedBox(
-                height: 40,
+                height: 20,
               ),
-              const Text("Player 1",
+              const Text(
+                "Player 1",
                 style: TextStyle(
                   fontSize: 30,
                   fontWeight: FontWeight.bold,
